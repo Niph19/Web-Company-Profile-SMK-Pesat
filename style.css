@@ -75,7 +75,6 @@ body {
     background-color: #0c084c;
 }
 
-
 /* MENU */
 
 .container-menu {
@@ -739,7 +738,7 @@ margin: auto;
     text-align: center;
 }
 .text-dkv-2 {
-    font-size: 13px;
+    font-size: 14px;
     color:#0C084C;
     font-weight: 400;
 }
@@ -819,66 +818,220 @@ margin: auto;
 }
 
 
+/* DKV Motion Graphic */
 
+.container-motion-graphic {
+    max-width: 1100px;
+    margin: 30px auto auto;
+    padding: 10px;
+}
+.motion-graphic {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 20px;
+}
+.heading-motion-graphic {
+    text-align: center;
+    padding: 10px;
+}
+.heading-motion-graphic h2 {
+    padding: 10px;
+    font-size: 18px;
+    color: #0C084C;
+    font-weight: 300;
+}
+.motion-graphic-yt2,
+.motion-graphic-yt1 {
+    padding: 10px;
+}
 
+/* Portofolio RPL */
+
+.container-port-rpl {
+    max-width: 1100px;
+    margin: 100px auto auto;
+    padding: 10px;
+}
+.container-text-rpl {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+.text-rpl-1 {
+    font-size: 43px;
+    color:#0C084C;
+    font-weight: 400;
+    text-align: center;
+}
+.text-rpl-2 {
+    font-size: 14px;
+    color:#0C084C;
+    font-weight: 400;
+}
+.text-rpl-list ul {
+    list-style-type: none;
+    padding: 0px 0px 15px 15px;
+    font-size: 14px;
+    color: #687279;
+    font-weight: 300;
+}
+.button-portofolio-rpl {
+    background-color: #0C084C;
+    padding: 8px 25px;
+    border-radius: 5px;
+    width: fit-content;
+}
+.button-portofolio-rpl a {
+    font-size: 12px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.button-portofolio-rpl i {
+    color: white;
+}
+.container-port-rpl {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.container-text-rpl {
+    width: 336px;
+}
+.port-rpl-img-container {
+    padding: 10px;
+    width: 73%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.container-port2-rpl {
+    padding: 10px;
+}
+.container-port2-portofolio {
+    max-width: 1140px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+.port2-portofolio-healthwell {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+.port2-portofolio-clevo {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+.port2-portofolio-smartfamily {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+.port2-portofolio-dotravel {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+.port2-portofolio-text1 {
+    font-size: 20px;
+    color: #0C084C;
+}
+.port2-portofolio-text2 {
+    font-size: 12px;
+    color: #0C084C;
+    font-weight: 400;
+}
+.port2-portofolio-text3 {
+    font-size: 12px;
+    color: #0C084C;
+    font-weight: 400;
+}
+.port2-portofolio-button {
+    background-color: #f2a204;
+    padding: 8px 24px; 
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+.port2-portofolio-button i {
+    color: white;
+}
 @media screen and (max-width: 600px) {
     .navbar {
         margin: 0;
     }
+    
     .container-menu-text {
         width: 94%;
     }
+    
     .menu-text1 {
         font-size: 16px;
         line-height: 1;
     }
+    
     .menu-text2 {
         font-size: 43px;
-        
     }
+    
     .menu-list-button {
-        display: flex;
         flex-direction: column;
         gap: 40px;
     }
+    
     .hero-content {
         flex-direction: column;
-        padding: 0px 10px;
+        padding: 0 10px;
     }
-    .container-menu-img {
+    
+    .container-menu-img,
+    .menu-img {
         width: 350px;
+    }
+    
+    .container-menu-img {
         height: 280px;
     }
-    .menu-img {
-        width: 350px ;
-    }
+    
     .menu-text-industries {
         margin-top: 50px;
         text-align: center;
     }
+    
     .menu-industries {
         flex-direction: column;
         align-items: center;
     }
+    
     .container-programs {
-        margin: 70px 16% 0px 16%;
+        margin: 70px 16% 0;
     }
+    
     .program-text1 {
         width: 280px;
     }
-    .programs {
-        display: flex;
-        flex-direction: column;
-    }
+    
+    .programs,
     .jurusan {
-        display: flex;
         flex-direction: column;
     }
-    /* .div-program-text2 {
-        /* width:  */
-    /* } */ 
+    
     .program-text2 {
         margin-top: 20px;
-        
     }
 }
