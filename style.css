@@ -971,6 +971,10 @@ margin: auto;
 .port2-portofolio-button i {
     color: white;
 }
+
+.sertikom {
+    display: flex;
+}
 @media screen and (max-width: 600px) {
     .navbar {
         margin: 0;
