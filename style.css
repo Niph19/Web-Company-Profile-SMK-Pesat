@@ -983,6 +983,7 @@ margin: auto;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    color: #0C084C;
 }
 .sertikom-judul h3 {
     font-size: 43px;
@@ -999,6 +1000,45 @@ margin: auto;
 }
 .sertikom {
     display: flex;
+    gap: 39px;
+    padding: 10px;
+}
+.sertikom-left {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sertikom-left h2 {
+    
+    font-size: 14px;
+    font-weight: 500;
+    color: #0C084C;
+}
+.sertikom-left ul {
+    font-size: 14px;
+    color: #687279;
+    list-style-type: none;
+    padding: 0 15px 15px;
+}
+
+.sertikom-right {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sertikom-right h2 {
+    
+    font-size: 14px;
+    font-weight: 500;
+    color: #0C084C;
+}
+.sertikom-right ul {
+    font-size: 14px;
+    color: #687279;
+    padding: 0 15px 15px;
+    list-style-type: none;
 }
 @media screen and (max-width: 600px) {
     .navbar {
