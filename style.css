@@ -1043,6 +1043,9 @@ margin: auto;
 
 /* Register */
 
+.container-register {
+    margin-bottom: 100px;
+}
 .container-register-text {
     text-align: center;
     padding: 10px;
@@ -1062,7 +1065,7 @@ margin: auto;
     color: #0C084C;
 }
 .container-register-content {
-    max-width: 1100px;
+    max-width: 1180px;
     margin: auto;
     padding: 10px;
     display: flex;
@@ -1070,17 +1073,69 @@ margin: auto;
     /* justify-content: center; */
 }
 .register-geolocation {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     padding: 10px;
 }
-
+.register-geolocation h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0C084C;
+}
+.register-geolocation iframe {
+    border-radius: 24px;
+}
 .register-img {
     width: 31%;
+    height: 31%;
 }
 .register-contact {
-    padding: 10px;
+    padding: 80px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #f2a204;
+    border-radius: 24px;
+}
+.register-contact b {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+.register-contact h2 {
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+}
+.register-contact a {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 12px 24px;
+    border-radius: 3px;
+    text-align: left;
+    width: fit-content;
 }
 
+.bottom {
+    background-color: #f4f5f6;
+    height: 60.5px;
+    margin: auto;
+}
 
+.bottom p {
+    max-width: 1290px;
+    margin: auto;
+    color: #687279;
+    font-size: 15px;
+    padding: 25px 0px 25px 0px;
+    /* text-align: center; */
+}
 @media screen and (max-width: 600px) {
     .navbar {
         margin: 0;
