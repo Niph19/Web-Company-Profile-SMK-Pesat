@@ -1040,6 +1040,47 @@ margin: auto;
     padding: 0 15px 15px;
     list-style-type: none;
 }
+
+/* Register */
+
+.container-register-text {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.register-text1 {
+    font-size: 43px;
+    margin-top: 100px;
+
+    color: #0C084C;
+}
+.register-text2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0C084C;
+}
+.container-register-content {
+    max-width: 1100px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    /* justify-content: center; */
+}
+.register-geolocation {
+    padding: 10px;
+}
+
+.register-img {
+    width: 31%;
+}
+.register-contact {
+    padding: 10px;
+}
+
+
 @media screen and (max-width: 600px) {
     .navbar {
         margin: 0;
